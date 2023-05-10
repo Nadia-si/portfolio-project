@@ -21,9 +21,15 @@ h6 {
 }
 h1 {
   font-size: 96px;
+  line-height: 1, 5;
+}
+h2 {
+  font-size: 60px;
 }
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 .hero {
   background: var(--secondary-color);
@@ -36,10 +42,10 @@ p {
   margin: 0;
   color: #272142;
 }
-hero h2 {
+.hero h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 2;
   color: #272142;
 }
@@ -50,4 +56,38 @@ hero h2 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-branding-outline {
+  color: var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border: 1px solid var(--branding-color);
+}
+.project-description {
+  padding: 60px;
+}
+@media (max-width: 900px) {
+  .hero {
+    padding: 80px 20px;
+  }
+  .hero p {
+    font-size: 26px;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .hero h2 {
+    line-height: 1.2;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
