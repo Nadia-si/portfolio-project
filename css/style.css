@@ -45,7 +45,7 @@ p {
 .hero h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
-  font-size: 20px;
+  font-size: 40px;
   line-height: 2;
   color: #272142;
 }
@@ -84,6 +84,7 @@ p {
     font-size: 40px;
   }
   .hero h2 {
+    font-size: 25px;
     line-height: 1.2;
   }
   .project-description {
