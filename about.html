@@ -26,28 +26,122 @@
       src="https://kit.fontawesome.com/401bd994ce.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <meta
+      name="description"
+      content="About Nadia Simbi, a junior front-end engineer based in Sweden"
+    />
+    <title>About Nadia Simbi, front-end developer based in Sweden</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo-big.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo"
+          />
+          <img
+            src="images/logo.png"
+            class="logo d-block d-md-none"
+            alt="SheCodes logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Nadia">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Nadia's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Nadia">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
             <h1 class="mb-4">Hi I am Nadia Simbi</h1>
-            <h2 class="mb-4">Front-end developer based in Europe</h2>
+            <h2 class="mb-4">Front-end developer based in Sweden</h2>
             <p class="mb-5">
               For anyone who wants to start learning code, this workshop is very
               interesting. You will be challenged with different exercises, and
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">View my projects</a>
+            <a href="/work.html" class="btn btn-branding">View my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/picture.jpeg" alt="" class="img-fluid" />
+          <img
+            src="images/picture.jpeg"
+            alt="Nadia picture"
+            class="img-fluid"
+            width="600"
+          />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Nadia"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-4">
+        <a
+          href="mailto:mailto:nasimbi2011@gmail.com"
+          class="email-link"
+          title="Email Nadia"
+          >nasimbi2011@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/Nadia-si"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.twitter.com/nasimbi"
+          target="_blank"
+          title="Twitter Profile"
+        >
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/simbi_na"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        ✌️ This project was coded by Nadia Simbi, and it is
+        <a href="https://github.com/Nadia-si/portfolio-project" target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
