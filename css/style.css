@@ -101,6 +101,10 @@ p {
   border-radius: 8px;
 }
 
+.project-images {
+  margin-top: 130px;
+}
+
 nav {
   padding: 20px 0px;
   margin-left: 15px;
