@@ -26,6 +26,7 @@
       src="https://kit.fontawesome.com/401bd994ce.js"
       crossorigin="anonymous"
     ></script>
+    <script src="contact.js"></script>
     <meta
       name="description"
       content="Contact-Nadia Simbi, junior front-end engineer based in Sweden"
@@ -65,47 +66,78 @@
     </div>
     <div class="content-container container">
       <div class="content">
-        <h1 class="mb-5" >Let's get in touch!</h1>
-       <div class="container">
-         <div class="row">
-          <div class="col-8">
-<div class="contact-info border m-3 p-3 rounded">
-  <label for="exampleFormControlInput1" class="form-label">Your email:</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1">
-
-<div class="my-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Your message:</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
-<div class="mb-3">
-   <input type="submit" class="btn btn-branding" value="Send">
-</div>
-</div>
+        <h1 class="mb-5">Let's get in touch!</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-8">
+              <div class="contact-info border m-3 p-3 rounded">
+                <form
+                  id="my-form"
+                  action="https://formspree.io/f/mnqyrezg"
+                  method="POST"
+                >
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Your email:</label
+                  >
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    autocomplete="off"
+                    id="exampleFormControlInput1"
+                    required
+                  />
+                  <div class="my-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"
+                      >Your message:</label
+                    >
+                    <textarea
+                      name="message"
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="submit"
+                      class="btn btn-branding"
+                      value="Send"
+                    />
+                  </div>
+                  <p id="my-form-status"></p>
+                </form>
+              </div>
+            </div>
+            <div class="col-4 pt-4">
+              <h3>Email</h3>
+              <p class="mb-3">
+                <a href="mailto:nasimbi2011@gmail.com">nasimbi2011@gmail.com</a>
+              </p>
+              <h3>Twitter</h3>
+              <p class="mb-3">
+                <a href="https://www.twitter.com/nasimbi" target="_blank"
+                  >@nasimbi</a
+                >
+              </p>
+              <h3>Instagram</h3>
+              <p>
+                <a href="https://www.instagram.com/simbi_na" target="_blank"
+                  >@simbi_na</a
+                >
+              </p>
+            </div>
           </div>
-          <div class="col-4 pt-4">
-       <h3>Email</h3>
-       <p class="mb-3">
-        <a href="mailto:nasimbi2011@gmail.com">nasimbi2011@gmail.com</a>
-       </p>
-       <h3>Twitter</h3>
-       <p class="mb-3">
-        <a href="https://www.twitter.com/nasimbi">@nasimbi</a>
-       </p>
-       <h3>Instagram</h3>
-       <p>
-        <a href="https://www.instagram.com/simbi_na" target="_blank">@simbi_na</a>
-       </p>
-          </div>
-        </div>
         </div>
       </div>
     </div>
-    </body>
     <footer>
       <p class="text-center mt-5">
         ✌️ This project was coded by Nadia Simbi, and it is
         <a href="https://github.com/Nadia-si/portfolio-project" target="_blank"
-          >open-sourced</a>
+          >open-sourced</a
+        >
       </p>
     </footer>
   </body>
