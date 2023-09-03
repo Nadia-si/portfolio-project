@@ -1,13 +1,23 @@
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
-  --color-text-primary: #272142;
+  --color-text-primary: antiquewhite;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
 body {
   font-family: var(--default-font-family);
+  background-color: #131520;
+  color: var(--color-text-primary);
+}
+
+body p {
+  color: var(--color-text-primary);
+}
+.container a {
+  color: #ed619d;
+  text-decoration: none;
 }
 
 h1,
@@ -18,7 +28,6 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
-  color: black;
 }
 h1 {
   font-size: 96px;
@@ -35,9 +44,10 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  color: var(--color-text-primary);
 }
 .hero {
-  background: var(--secondary-color);
+  background: #131520;
   text-align: center;
   padding: 80px 20px;
 }
@@ -57,7 +67,7 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: white;
+  color: var(--color-text-primary);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -97,6 +107,9 @@ p {
   margin: 30px;
 }
 
+.content a {
+  color: antiquewhite;
+}
 .img-fluid {
   border-radius: 8px;
 }
@@ -124,7 +137,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: var(--color-text-primary);
+  color: #ed619d;
   transition: all 100ms ease-in-out;
 }
 
@@ -138,23 +151,38 @@ nav li.active a {
   max-height: 100px;
 }
 
+.text-muted {
+  color: var(--color-text-primary) !important;
+}
+
 footer {
   margin: 50px 0;
 }
+footer h3 {
+  color: black;
+}
 
+footer .btn {
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
 footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
 }
 
+footer a {
+  color: #ed619d;
+  text-decoration: none;
+}
 footer .contact-box p {
   margin: 0;
 }
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--color-text-primary);
   font-size: 24px;
   text-align: center;
 }
@@ -174,7 +202,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: white;
+  color: var(--color-text-primary);
   background: var(--branding-color);
 }
 
@@ -206,6 +234,7 @@ footer .social-links a:hover {
   }
   .content h1 {
     font-size: 48px;
+    line-height: 60px;
   }
   nav a {
     font-size: 14px;
