@@ -176,6 +176,10 @@ footer a {
   color: #ed619d;
   text-decoration: none;
 }
+
+.footer-text {
+  color: black !important;
+}
 footer .contact-box p {
   margin: 0;
 }
