@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #4d8504;
   --secondary-color: #f9f7fe;
   --color-text-primary: rgb(228, 218, 205);
   --heading-font-family: "Playfair Display", serif;
@@ -47,7 +47,7 @@ p {
   color: var(--color-text-primary);
 }
 .hero {
-  background: #131520;
+  background: #093d3d;
   text-align: center;
   padding: 80px 20px;
 }
@@ -115,7 +115,7 @@ p {
 }
 
 .about-picture {
-  border-radius: 280px;
+  border-radius: 300px;
 }
 .project-images {
   margin-top: 90px;
