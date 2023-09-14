@@ -1,14 +1,14 @@
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
-  --color-text-primary: antiquewhite;
+  --color-text-primary: rgb(228, 218, 205);
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
 body {
   font-family: var(--default-font-family);
-  background-color: #131520;
+  background-color: #093d3d;
   color: var(--color-text-primary);
 }
 
@@ -114,6 +114,9 @@ p {
   border-radius: 8px;
 }
 
+.about-picture {
+  border-radius: 280px;
+}
 .project-images {
   margin-top: 90px;
 }
@@ -146,9 +149,14 @@ nav li.active a {
   color: var(--branding-color);
 }
 
-.logo {
+.nav-picture {
   max-width: 300px;
   max-height: 100px;
+  border-radius: 280px;
+}
+
+.nav-about {
+  align-items: flex-end;
 }
 
 .text-muted {
