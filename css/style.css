@@ -155,10 +155,6 @@ nav li.active a {
   border-radius: 280px;
 }
 
-.nav-about {
-  align-items: flex-end;
-}
-
 .text-muted {
   color: var(--color-text-primary) !important;
 }
